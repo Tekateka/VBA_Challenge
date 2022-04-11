@@ -66,10 +66,7 @@ The data were analysed on excel using VBA and tables were created for visualizat
     Cells(4 + i, 1).Value = tickers(i)
     Cells(4 + i, 2).Value = tickerVolumes(i)
     Cells(4 + i, 3).Value = tickerEndingPrice(i) / tickerStartingPrice(i) - 1
-
-        
     Next i
-    
 ## Results  
 ### Outputs for year 2017 and 2018 
 VBA analysis for stock performances and excution times for 2017 and 2018 are attached. 
